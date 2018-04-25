@@ -17,6 +17,13 @@
 		426F982920906CF900BEAB47 /* KadanesAlgoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F982820906CF900BEAB47 /* KadanesAlgoTest.swift */; };
 		426F982B2090737A00BEAB47 /* MissingNumberSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F982A2090737A00BEAB47 /* MissingNumberSolver.swift */; };
 		426F982D209074F800BEAB47 /* MissingNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F982C209074F800BEAB47 /* MissingNumberTest.swift */; };
+		426F982F209076EF00BEAB47 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F982E209076EF00BEAB47 /* MajorityElement.swift */; };
+		426F98332090967F00BEAB47 /* MajorityElementTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F98322090967F00BEAB47 /* MajorityElementTest.swift */; };
+		426F98372090A2C900BEAB47 /* HasPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F98362090A2C900BEAB47 /* HasPathSum.swift */; };
+		426F98392090ABAE00BEAB47 /* RotatedArraySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F98382090ABAE00BEAB47 /* RotatedArraySearch.swift */; };
+		426F983D2090B27300BEAB47 /* RotatedArraySearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F983C2090B27300BEAB47 /* RotatedArraySearchTest.swift */; };
+		426F983F2090BBEC00BEAB47 /* BSTCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F983E2090BBEC00BEAB47 /* BSTCheck.swift */; };
+		426F98432090BE8B00BEAB47 /* BSTCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F98422090BE8B00BEAB47 /* BSTCheckTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 		426F982820906CF900BEAB47 /* KadanesAlgoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadanesAlgoTest.swift; sourceTree = "<group>"; };
 		426F982A2090737A00BEAB47 /* MissingNumberSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumberSolver.swift; sourceTree = "<group>"; };
 		426F982C209074F800BEAB47 /* MissingNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumberTest.swift; sourceTree = "<group>"; };
+		426F982E209076EF00BEAB47 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		426F98322090967F00BEAB47 /* MajorityElementTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElementTest.swift; sourceTree = "<group>"; };
+		426F98362090A2C900BEAB47 /* HasPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasPathSum.swift; sourceTree = "<group>"; };
+		426F98382090ABAE00BEAB47 /* RotatedArraySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedArraySearch.swift; sourceTree = "<group>"; };
+		426F983C2090B27300BEAB47 /* RotatedArraySearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedArraySearchTest.swift; sourceTree = "<group>"; };
+		426F983E2090BBEC00BEAB47 /* BSTCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTCheck.swift; sourceTree = "<group>"; };
+		426F98422090BE8B00BEAB47 /* BSTCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTCheckTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,10 @@
 		426F98022090491900BEAB47 /* MSFTInterviewQuestions */ = {
 			isa = PBXGroup;
 			children = (
+				426F98362090A2C900BEAB47 /* HasPathSum.swift */,
+				426F98382090ABAE00BEAB47 /* RotatedArraySearch.swift */,
+				426F983E2090BBEC00BEAB47 /* BSTCheck.swift */,
+				426F982E209076EF00BEAB47 /* MajorityElement.swift */,
 				426F982A2090737A00BEAB47 /* MissingNumberSolver.swift */,
 				426F981A20904B3700BEAB47 /* KeyPair.swift */,
 				426F982020905C3900BEAB47 /* DivisibleBy3Solver.swift */,
@@ -98,6 +116,9 @@
 		426F980D2090491900BEAB47 /* MSFTInterviewQuestionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				426F98422090BE8B00BEAB47 /* BSTCheckTest.swift */,
+				426F983C2090B27300BEAB47 /* RotatedArraySearchTest.swift */,
+				426F98322090967F00BEAB47 /* MajorityElementTest.swift */,
 				426F982420905F1700BEAB47 /* DivisibleBy3Test.swift */,
 				426F981E209054FE00BEAB47 /* KeyPairTest.swift */,
 				426F982820906CF900BEAB47 /* KadanesAlgoTest.swift */,
@@ -216,10 +237,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426F983F2090BBEC00BEAB47 /* BSTCheck.swift in Sources */,
 				426F981B20904B3700BEAB47 /* KeyPair.swift in Sources */,
+				426F98372090A2C900BEAB47 /* HasPathSum.swift in Sources */,
 				426F98272090639A00BEAB47 /* KadanesAlgoSolver.swift in Sources */,
 				426F982B2090737A00BEAB47 /* MissingNumberSolver.swift in Sources */,
 				426F982120905C3900BEAB47 /* DivisibleBy3Solver.swift in Sources */,
+				426F98392090ABAE00BEAB47 /* RotatedArraySearch.swift in Sources */,
+				426F982F209076EF00BEAB47 /* MajorityElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426F98332090967F00BEAB47 /* MajorityElementTest.swift in Sources */,
+				426F98432090BE8B00BEAB47 /* BSTCheckTest.swift in Sources */,
+				426F983D2090B27300BEAB47 /* RotatedArraySearchTest.swift in Sources */,
 				426F982520905F1700BEAB47 /* DivisibleBy3Test.swift in Sources */,
 				426F982D209074F800BEAB47 /* MissingNumberTest.swift in Sources */,
 				426F982920906CF900BEAB47 /* KadanesAlgoTest.swift in Sources */,
