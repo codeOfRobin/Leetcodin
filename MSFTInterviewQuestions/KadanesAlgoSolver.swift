@@ -39,7 +39,6 @@ class KadanesAlgoSolver {
 	func solve(_ input: [Int]) -> Int {
 		var maxUntilNow = input[0]
 		var maxEndingRange = input[0]
-
 		for number in input[1...] {
 			maxEndingRange = max(number, number + maxEndingRange)
 			maxUntilNow = max(maxUntilNow, maxEndingRange)

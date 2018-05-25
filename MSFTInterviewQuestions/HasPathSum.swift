@@ -44,6 +44,7 @@ class HasPathSumSolver {
 		guard let val = node?.val else {
 			return [[]]
 		}
+
 		if sum - val == 0, node?.left == nil, node?.right == nil {
 			return [nodesUntilNow + [val]]
 		} else {
