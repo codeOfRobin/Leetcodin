@@ -14,6 +14,8 @@
 		421177D720BB147300AA2335 /* StairClimbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D620BB147300AA2335 /* StairClimbing.swift */; };
 		421177D920BB177C00AA2335 /* StairClimbingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D820BB177C00AA2335 /* StairClimbingTest.swift */; };
 		421177DB20BB1A6800AA2335 /* HouseRobberSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177DA20BB1A6800AA2335 /* HouseRobberSolver.swift */; };
+		421177DD20BB1EC500AA2335 /* ZigZagTreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177DC20BB1EC500AA2335 /* ZigZagTreeTraversal.swift */; };
+		421177DF20BB1F3300AA2335 /* ZigZagTraversalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177DE20BB1F3300AA2335 /* ZigZagTraversalTest.swift */; };
 		BF_137410002110 /* MSFTInterviewQuestions.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_307080811752 /* MSFTInterviewQuestions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_151642620219 /* BSTCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_716589952334 /* BSTCheckTest.swift */; };
 		BF_230353863046 /* ReverseMiddleSortMergeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_738180632054 /* ReverseMiddleSortMergeLinkedList.swift */; };
@@ -56,6 +58,8 @@
 		421177D620BB147300AA2335 /* StairClimbing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairClimbing.swift; sourceTree = "<group>"; };
 		421177D820BB177C00AA2335 /* StairClimbingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairClimbingTest.swift; sourceTree = "<group>"; };
 		421177DA20BB1A6800AA2335 /* HouseRobberSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobberSolver.swift; sourceTree = "<group>"; };
+		421177DC20BB1EC500AA2335 /* ZigZagTreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTreeTraversal.swift; sourceTree = "<group>"; };
+		421177DE20BB1F3300AA2335 /* ZigZagTraversalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraversalTest.swift; sourceTree = "<group>"; };
 		FR_184101787712 /* SymettricTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymettricTreeTest.swift; sourceTree = "<group>"; };
 		FR_203938555128 /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
 		FR_256198207522 /* RotatedArraySearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedArraySearchTest.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 		G_2388640895522 /* MSFTInterviewQuestionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				421177DE20BB1F3300AA2335 /* ZigZagTraversalTest.swift */,
 				421177D820BB177C00AA2335 /* StairClimbingTest.swift */,
 				421177D420BB08D700AA2335 /* BuyAndSellOneStockTest.swift */,
 				421177D020BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift */,
@@ -128,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				421177DA20BB1A6800AA2335 /* HouseRobberSolver.swift */,
+				421177DC20BB1EC500AA2335 /* ZigZagTreeTraversal.swift */,
 				421177CE20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift */,
 				421177D620BB147300AA2335 /* StairClimbing.swift */,
 				421177D220BB088B00AA2335 /* BuyAndSellOneStockSolver.swift */,
@@ -238,6 +244,7 @@
 				BF_354546509817 /* DivisibleBy3Solver.swift in Sources */,
 				421177DB20BB1A6800AA2335 /* HouseRobberSolver.swift in Sources */,
 				BF_853331434993 /* HasPathSum.swift in Sources */,
+				421177DD20BB1EC500AA2335 /* ZigZagTreeTraversal.swift in Sources */,
 				BF_671579297522 /* KadanesAlgoSolver.swift in Sources */,
 				BF_289826298127 /* KeyPair.swift in Sources */,
 				BF_458746705148 /* LongestPalindromicSubstring.swift in Sources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421177DF20BB1F3300AA2335 /* ZigZagTraversalTest.swift in Sources */,
 				BF_151642620219 /* BSTCheckTest.swift in Sources */,
 				BF_570864581381 /* DivisibleBy3Test.swift in Sources */,
 				421177D920BB177C00AA2335 /* StairClimbingTest.swift in Sources */,
