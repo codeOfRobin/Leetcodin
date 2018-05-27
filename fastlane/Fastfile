@@ -22,5 +22,5 @@ platform :ios do
   end
 
   lane :tests do
-    scan(scheme: "MSFTInterviewQuestions")
+    scan(scheme: "MSFTInterviewQuestions_macOS")
 end
