@@ -13,6 +13,7 @@
 		421177D520BB08D700AA2335 /* BuyAndSellOneStockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D420BB08D700AA2335 /* BuyAndSellOneStockTest.swift */; };
 		421177D720BB147300AA2335 /* StairClimbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D620BB147300AA2335 /* StairClimbing.swift */; };
 		421177D920BB177C00AA2335 /* StairClimbingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D820BB177C00AA2335 /* StairClimbingTest.swift */; };
+		421177DB20BB1A6800AA2335 /* HouseRobberSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177DA20BB1A6800AA2335 /* HouseRobberSolver.swift */; };
 		BF_137410002110 /* MSFTInterviewQuestions.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_307080811752 /* MSFTInterviewQuestions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_151642620219 /* BSTCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_716589952334 /* BSTCheckTest.swift */; };
 		BF_230353863046 /* ReverseMiddleSortMergeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_738180632054 /* ReverseMiddleSortMergeLinkedList.swift */; };
@@ -54,6 +55,7 @@
 		421177D420BB08D700AA2335 /* BuyAndSellOneStockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSellOneStockTest.swift; sourceTree = "<group>"; };
 		421177D620BB147300AA2335 /* StairClimbing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairClimbing.swift; sourceTree = "<group>"; };
 		421177D820BB177C00AA2335 /* StairClimbingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairClimbingTest.swift; sourceTree = "<group>"; };
+		421177DA20BB1A6800AA2335 /* HouseRobberSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobberSolver.swift; sourceTree = "<group>"; };
 		FR_184101787712 /* SymettricTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymettricTreeTest.swift; sourceTree = "<group>"; };
 		FR_203938555128 /* LinkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTest.swift; sourceTree = "<group>"; };
 		FR_256198207522 /* RotatedArraySearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedArraySearchTest.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		G_8474734825290 /* MSFTInterviewQuestions */ = {
 			isa = PBXGroup;
 			children = (
+				421177DA20BB1A6800AA2335 /* HouseRobberSolver.swift */,
 				421177CE20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift */,
 				421177D620BB147300AA2335 /* StairClimbing.swift */,
 				421177D220BB088B00AA2335 /* BuyAndSellOneStockSolver.swift */,
@@ -233,6 +236,7 @@
 			files = (
 				BF_403958446795 /* BSTCheck.swift in Sources */,
 				BF_354546509817 /* DivisibleBy3Solver.swift in Sources */,
+				421177DB20BB1A6800AA2335 /* HouseRobberSolver.swift in Sources */,
 				BF_853331434993 /* HasPathSum.swift in Sources */,
 				BF_671579297522 /* KadanesAlgoSolver.swift in Sources */,
 				BF_289826298127 /* KeyPair.swift in Sources */,
