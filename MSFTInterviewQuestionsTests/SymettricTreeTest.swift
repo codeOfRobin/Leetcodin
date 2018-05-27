@@ -38,8 +38,8 @@ class SymettricTreeTest: XCTestCase {
     }
 
 	func testStairClimbing() {
-		let solver = LongestPalindromicSubstringSolver()
-		XCTAssertEqual(solver.climbStairs(2), 2)
+//		let solver = LongestPalindromicSubstringSolver()
+//		XCTAssertEqual(solver.climbStairs(2), 2)
 	}
 
     func testPerformanceExample() {
