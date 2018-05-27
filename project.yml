@@ -1,0 +1,25 @@
+name: MSFTInterviewQuestions
+options:
+  deploymentTarget:
+    macOS: 10.12
+targets:
+  MSFTInterviewQuestions:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rmalhotra.MSFTInterviewQuestions
+    type: framework
+    platform: [macOS]
+    sources: MSFTInterviewQuestions
+    scheme:
+      gatherCoverageData: true
+      testTargets:
+        - MSFTInterviewQuestionsTests_$platform
+  MSFTInterviewQuestionsTests:
+    type: bundle.unit-test
+    platform: [macOS]
+    sources: MSFTInterviewQuestionsTests
+    dependencies:
+      - target: MSFTInterviewQuestions_$platform
+    settings:
+      LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
+      LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]: "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks"
