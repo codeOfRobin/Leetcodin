@@ -93,7 +93,7 @@ class ReverseMiddleSortMergeLinkedList {
 				}
 			}()
 
-			print(nodeToForward?.val)
+            print(nodeToForward?.val as Any)
 
 			if res == nil {
 				res = nodeToForward
