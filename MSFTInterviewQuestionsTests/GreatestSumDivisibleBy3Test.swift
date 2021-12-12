@@ -11,7 +11,7 @@ import XCTest
 
 class GreatestSumDivisibleBy3Test: XCTestCase {
     func testSolver1() {
-        let nums = [3,6,5,  ,8]
+        let nums = [3,6,5,1,8]
         let result = GreatestSumDivisibleBy3.maxSumDivThree(nums)
         XCTAssertEqual(result, 18)
     }
