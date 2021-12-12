@@ -15,10 +15,16 @@ class DecodeWays {
             dict[String(index + 1)] = String(char)
         }
         
-        return generatePossibilities(for: s, mappings: mappings)
+        var memo: [String: Int] = [:]
+        return generatePossibilities(for: s, mappings: mappings, memo: &memo)
     }
     
-    func generatePossibilities(for string: String, mappings: [String: String]) -> Int {
+    func generatePossibilities(for string: String, mappings: [String: String], memo: inout [String: Int]) -> Int {
+        
+        if let result = memo[string] {
+            return result
+        }
+        
         if string.first == "0" {
             return 0
         }
@@ -26,26 +32,34 @@ class DecodeWays {
         if string.isEmpty {
             return 0
         }
-        // check both characters
-        let firstCharacter = string.prefix(1)
         
-        var shouldIncludeTwoCharactersFlag = false
+        if string.count == 1 {
+            let result = mappings[string] == nil ? 0 : 1
+            memo[string] = result
+            return result
+        }
         
-        if string.count > 1 {
-            let firstTwoCharacters  = String(string.prefix(2))
-            if mappings[firstTwoCharacters] != nil {
-                shouldIncludeTwoCharactersFlag = true
+        if string.count == 2 {
+            let result = (mappings[string] == nil ? 0 : 1) + (mappings[String(string.last!)] == nil ? 0 : 1)
+            memo[string] = result
+            return result
+        }
+        
+        let firstSolution = {
+            return self.generatePossibilities(for: String(string.dropFirst()), mappings: mappings, memo: &memo)
+        }()
+        let secondSolution = { () -> Int in
+            if string.count > 1 && mappings[String(string.prefix(2))] != nil {
+                return self.generatePossibilities(for: String(string.dropFirst(2)), mappings: mappings, memo: &memo)
+            } else {
+                return 0
             }
-        }
+        }()
         
-        let futureOneCharacterPossibilties = {
-            return self.generatePossibilities(for: String(string.dropFirst()), mappings: mappings)
-        }
-        
-        let futureTwoCharacterPossibilities = {
-            return self.generatePossibilities(for: String(string.dropFirst(2)), mappings: mappings)
-        }
-        
-        return 1 + (shouldIncludeTwoCharactersFlag ? 0 : futureOneCharacterPossibilties()) + (shouldIncludeTwoCharactersFlag ? (1 + futureTwoCharacterPossibilities()) : 0)
+        memo[string] = firstSolution + secondSolution
+        return firstSolution + secondSolution
     }
 }
+
+
+
