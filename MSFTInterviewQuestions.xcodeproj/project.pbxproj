@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420812DE27664E3300D046AD /* ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420812DD27664E3300D046AD /* ValidSudoku.swift */; };
+		420812E127664E7F00D046AD /* ValidSudokuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420812DF27664E5A00D046AD /* ValidSudokuTest.swift */; };
+		420812E327665C0600D046AD /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420812E227665C0600D046AD /* WordSearch.swift */; };
+		420812E527665D1B00D046AD /* DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420812E427665D1B00D046AD /* DecodeWays.swift */; };
+		420812E727665D3600D046AD /* DecodeWaysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420812E627665D3600D046AD /* DecodeWaysTest.swift */; };
 		421177CF20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177CE20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift */; };
 		421177D120BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D020BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift */; };
 		421177D320BB088B00AA2335 /* BuyAndSellOneStockSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177D220BB088B00AA2335 /* BuyAndSellOneStockSolver.swift */; };
@@ -55,6 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		420812DD27664E3300D046AD /* ValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudoku.swift; sourceTree = "<group>"; };
+		420812DF27664E5A00D046AD /* ValidSudokuTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudokuTest.swift; sourceTree = "<group>"; };
+		420812E227665C0600D046AD /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
+		420812E427665D1B00D046AD /* DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWays.swift; sourceTree = "<group>"; };
+		420812E627665D3600D046AD /* DecodeWaysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWaysTest.swift; sourceTree = "<group>"; };
 		421177CE20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairsSolver.swift; sourceTree = "<group>"; };
 		421177D020BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairsSolverTest.swift; sourceTree = "<group>"; };
 		421177D220BB088B00AA2335 /* BuyAndSellOneStockSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSellOneStockSolver.swift; sourceTree = "<group>"; };
@@ -126,6 +136,8 @@
 				FR_184101787712 /* SymettricTreeTest.swift */,
 				42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */,
 				42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */,
+				420812DF27664E5A00D046AD /* ValidSudokuTest.swift */,
+				420812E627665D3600D046AD /* DecodeWaysTest.swift */,
 			);
 			path = MSFTInterviewQuestionsTests;
 			sourceTree = "<group>";
@@ -162,6 +174,9 @@
 				FR_519687153506 /* SymettricTreeSolver.swift */,
 				42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */,
 				42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */,
+				420812DD27664E3300D046AD /* ValidSudoku.swift */,
+				420812E227665C0600D046AD /* WordSearch.swift */,
+				420812E427665D1B00D046AD /* DecodeWays.swift */,
 			);
 			path = MSFTInterviewQuestions;
 			sourceTree = "<group>";
@@ -262,14 +277,17 @@
 				BF_671579297522 /* KadanesAlgoSolver.swift in Sources */,
 				BF_289826298127 /* KeyPair.swift in Sources */,
 				BF_458746705148 /* LongestPalindromicSubstring.swift in Sources */,
+				420812DE27664E3300D046AD /* ValidSudoku.swift in Sources */,
 				421177D320BB088B00AA2335 /* BuyAndSellOneStockSolver.swift in Sources */,
 				BF_901706121155 /* MajorityElement.swift in Sources */,
+				420812E327665C0600D046AD /* WordSearch.swift in Sources */,
 				BF_789988603799 /* MissingNumberSolver.swift in Sources */,
 				BF_230353863046 /* ReverseMiddleSortMergeLinkedList.swift in Sources */,
 				421177CF20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift in Sources */,
 				BF_848230035910 /* RotatedArraySearch.swift in Sources */,
 				421177D720BB147300AA2335 /* StairClimbing.swift in Sources */,
 				BF_482627798341 /* SymettricTreeSolver.swift in Sources */,
+				420812E527665D1B00D046AD /* DecodeWays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +306,8 @@
 				BF_824364079718 /* MissingNumberTest.swift in Sources */,
 				42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */,
 				BF_661122048039 /* RotatedArraySearchTest.swift in Sources */,
+				420812E727665D3600D046AD /* DecodeWaysTest.swift in Sources */,
+				420812E127664E7F00D046AD /* ValidSudokuTest.swift in Sources */,
 				BF_787673643214 /* SymettricTreeTest.swift in Sources */,
 				421177D120BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift in Sources */,
 				421177D520BB08D700AA2335 /* BuyAndSellOneStockTest.swift in Sources */,
