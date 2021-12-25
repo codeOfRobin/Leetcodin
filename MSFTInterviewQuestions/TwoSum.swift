@@ -7,6 +7,7 @@
 
 import Foundation
 
+// https://leetcode.com/problems/two-sum
 class TwoSumSolution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         let subtractedNums = nums.map{ -($0 - target) }
