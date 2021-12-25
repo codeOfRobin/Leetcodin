@@ -29,6 +29,8 @@
 		42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */; };
 		42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225927768E8C002FDA78 /* UniqueFileNames.swift */; };
 		42C1225D27768F9F002FDA78 /* UniqueFileNamesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225B27768F15002FDA78 /* UniqueFileNamesTest.swift */; };
+		42C1225F2776AC6A002FDA78 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225E2776AC6A002FDA78 /* TwoSum.swift */; };
+		42C122612776AC89002FDA78 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C122602776AC89002FDA78 /* TwoSumTest.swift */; };
 		42D65736275C256300117233 /* GreatestSumDivisibleBy3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */; };
 		42D65739275C2DD000117233 /* GreatestSumDivisibleBy3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */; };
 		BF_137410002110 /* MSFTInterviewQuestions.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_307080811752 /* MSFTInterviewQuestions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -88,6 +90,8 @@
 		42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangleTest.swift; sourceTree = "<group>"; };
 		42C1225927768E8C002FDA78 /* UniqueFileNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNames.swift; sourceTree = "<group>"; };
 		42C1225B27768F15002FDA78 /* UniqueFileNamesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNamesTest.swift; sourceTree = "<group>"; };
+		42C1225E2776AC6A002FDA78 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		42C122602776AC89002FDA78 /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
 		42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestSumDivisibleBy3.swift; sourceTree = "<group>"; };
 		42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestSumDivisibleBy3Test.swift; sourceTree = "<group>"; };
 		FR_184101787712 /* SymettricTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymettricTreeTest.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				420812EA27668B5F00D046AD /* LowestCommonAncestorTest.swift */,
 				420812EF2766952200D046AD /* NumIslandsTest.swift */,
 				42C1225B27768F15002FDA78 /* UniqueFileNamesTest.swift */,
+				42C122602776AC89002FDA78 /* TwoSumTest.swift */,
 			);
 			path = MSFTInterviewQuestionsTests;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				420812E827668B4200D046AD /* LowestCommonAncestor.swift */,
 				420812ED276694D100D046AD /* NumIslands.swift */,
 				42C1225927768E8C002FDA78 /* UniqueFileNames.swift */,
+				42C1225E2776AC6A002FDA78 /* TwoSum.swift */,
 			);
 			path = MSFTInterviewQuestions;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				BF_230353863046 /* ReverseMiddleSortMergeLinkedList.swift in Sources */,
 				421177CF20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift in Sources */,
 				BF_848230035910 /* RotatedArraySearch.swift in Sources */,
+				42C1225F2776AC6A002FDA78 /* TwoSum.swift in Sources */,
 				421177D720BB147300AA2335 /* StairClimbing.swift in Sources */,
 				420812E927668B4200D046AD /* LowestCommonAncestor.swift in Sources */,
 				BF_482627798341 /* SymettricTreeSolver.swift in Sources */,
@@ -332,6 +339,7 @@
 				420812E127664E7F00D046AD /* ValidSudokuTest.swift in Sources */,
 				420812F02766952200D046AD /* NumIslandsTest.swift in Sources */,
 				BF_787673643214 /* SymettricTreeTest.swift in Sources */,
+				42C122612776AC89002FDA78 /* TwoSumTest.swift in Sources */,
 				421177D120BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift in Sources */,
 				421177D520BB08D700AA2335 /* BuyAndSellOneStockTest.swift in Sources */,
 				42D65739275C2DD000117233 /* GreatestSumDivisibleBy3Test.swift in Sources */,
