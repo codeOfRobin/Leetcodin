@@ -27,6 +27,8 @@
 		421177DF20BB1F3300AA2335 /* ZigZagTraversalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421177DE20BB1F3300AA2335 /* ZigZagTraversalTest.swift */; };
 		42C02CE427642DB1004CD3F9 /* DeliverooRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */; };
 		42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */; };
+		42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225927768E8C002FDA78 /* UniqueFileNames.swift */; };
+		42C1225D27768F9F002FDA78 /* UniqueFileNamesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225B27768F15002FDA78 /* UniqueFileNamesTest.swift */; };
 		42D65736275C256300117233 /* GreatestSumDivisibleBy3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */; };
 		42D65739275C2DD000117233 /* GreatestSumDivisibleBy3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */; };
 		BF_137410002110 /* MSFTInterviewQuestions.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_307080811752 /* MSFTInterviewQuestions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,6 +86,8 @@
 		421177DE20BB1F3300AA2335 /* ZigZagTraversalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraversalTest.swift; sourceTree = "<group>"; };
 		42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangle.swift; sourceTree = "<group>"; };
 		42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangleTest.swift; sourceTree = "<group>"; };
+		42C1225927768E8C002FDA78 /* UniqueFileNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNames.swift; sourceTree = "<group>"; };
+		42C1225B27768F15002FDA78 /* UniqueFileNamesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNamesTest.swift; sourceTree = "<group>"; };
 		42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestSumDivisibleBy3.swift; sourceTree = "<group>"; };
 		42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestSumDivisibleBy3Test.swift; sourceTree = "<group>"; };
 		FR_184101787712 /* SymettricTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymettricTreeTest.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				420812E627665D3600D046AD /* DecodeWaysTest.swift */,
 				420812EA27668B5F00D046AD /* LowestCommonAncestorTest.swift */,
 				420812EF2766952200D046AD /* NumIslandsTest.swift */,
+				42C1225B27768F15002FDA78 /* UniqueFileNamesTest.swift */,
 			);
 			path = MSFTInterviewQuestionsTests;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				420812E427665D1B00D046AD /* DecodeWays.swift */,
 				420812E827668B4200D046AD /* LowestCommonAncestor.swift */,
 				420812ED276694D100D046AD /* NumIslands.swift */,
+				42C1225927768E8C002FDA78 /* UniqueFileNames.swift */,
 			);
 			path = MSFTInterviewQuestions;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 				BF_403958446795 /* BSTCheck.swift in Sources */,
 				BF_354546509817 /* DivisibleBy3Solver.swift in Sources */,
 				421177DB20BB1A6800AA2335 /* HouseRobberSolver.swift in Sources */,
+				42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */,
 				BF_853331434993 /* HasPathSum.swift in Sources */,
 				421177DD20BB1EC500AA2335 /* ZigZagTreeTraversal.swift in Sources */,
 				420812EE276694D100D046AD /* NumIslands.swift in Sources */,
@@ -328,6 +335,7 @@
 				421177D120BAFF3A00AA2335 /* MinCostClimbingStairsSolverTest.swift in Sources */,
 				421177D520BB08D700AA2335 /* BuyAndSellOneStockTest.swift in Sources */,
 				42D65739275C2DD000117233 /* GreatestSumDivisibleBy3Test.swift in Sources */,
+				42C1225D27768F9F002FDA78 /* UniqueFileNamesTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
