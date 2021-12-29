@@ -37,6 +37,8 @@
 		42C1226C2777CA66002FDA78 /* LongestSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1226B2777CA66002FDA78 /* LongestSubstringTest.swift */; };
 		42C1226E27780121002FDA78 /* MedianTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1226D27780121002FDA78 /* MedianTwoSortedArrays.swift */; };
 		42C12271277801AF002FDA78 /* MedianTwoSortedArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1226F2778016E002FDA78 /* MedianTwoSortedArraysTest.swift */; };
+		42C12273277BF4FF002FDA78 /* LongestCommonSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C12272277BF4FF002FDA78 /* LongestCommonSubstring.swift */; };
+		42C12275277BF768002FDA78 /* LongestCommonSubstringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C12274277BF768002FDA78 /* LongestCommonSubstringTest.swift */; };
 		42D65736275C256300117233 /* GreatestSumDivisibleBy3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */; };
 		42D65739275C2DD000117233 /* GreatestSumDivisibleBy3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */; };
 		BF_137410002110 /* MSFTInterviewQuestions.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_307080811752 /* MSFTInterviewQuestions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -104,6 +106,8 @@
 		42C1226B2777CA66002FDA78 /* LongestSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringTest.swift; sourceTree = "<group>"; };
 		42C1226D27780121002FDA78 /* MedianTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianTwoSortedArrays.swift; sourceTree = "<group>"; };
 		42C1226F2778016E002FDA78 /* MedianTwoSortedArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianTwoSortedArraysTest.swift; sourceTree = "<group>"; };
+		42C12272277BF4FF002FDA78 /* LongestCommonSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubstring.swift; sourceTree = "<group>"; };
+		42C12274277BF768002FDA78 /* LongestCommonSubstringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubstringTest.swift; sourceTree = "<group>"; };
 		42D65735275C256300117233 /* GreatestSumDivisibleBy3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestSumDivisibleBy3.swift; sourceTree = "<group>"; };
 		42D65737275C2DCB00117233 /* GreatestSumDivisibleBy3Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestSumDivisibleBy3Test.swift; sourceTree = "<group>"; };
 		FR_184101787712 /* SymettricTreeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymettricTreeTest.swift; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 				42C122652777BF53002FDA78 /* AddTwoNumbersTest.swift */,
 				42C1226B2777CA66002FDA78 /* LongestSubstringTest.swift */,
 				42C1226F2778016E002FDA78 /* MedianTwoSortedArraysTest.swift */,
+				42C12274277BF768002FDA78 /* LongestCommonSubstringTest.swift */,
 			);
 			path = MSFTInterviewQuestionsTests;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				42C122622777B812002FDA78 /* AddTwoNumbers.swift */,
 				42C122682777C858002FDA78 /* LongestSubstring.swift */,
 				42C1226D27780121002FDA78 /* MedianTwoSortedArrays.swift */,
+				42C12272277BF4FF002FDA78 /* LongestCommonSubstring.swift */,
 			);
 			path = MSFTInterviewQuestions;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 				42C122642777B907002FDA78 /* AddTwoNumbers.swift in Sources */,
 				42C1226A2777C93C002FDA78 /* LongestSubstring.swift in Sources */,
 				421177D320BB088B00AA2335 /* BuyAndSellOneStockSolver.swift in Sources */,
+				42C12273277BF4FF002FDA78 /* LongestCommonSubstring.swift in Sources */,
 				BF_901706121155 /* MajorityElement.swift in Sources */,
 				420812E327665C0600D046AD /* WordSearch.swift in Sources */,
 				BF_789988603799 /* MissingNumberSolver.swift in Sources */,
@@ -345,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				421177DF20BB1F3300AA2335 /* ZigZagTraversalTest.swift in Sources */,
+				42C12275277BF768002FDA78 /* LongestCommonSubstringTest.swift in Sources */,
 				BF_151642620219 /* BSTCheckTest.swift in Sources */,
 				BF_570864581381 /* DivisibleBy3Test.swift in Sources */,
 				421177D920BB177C00AA2335 /* StairClimbingTest.swift in Sources */,

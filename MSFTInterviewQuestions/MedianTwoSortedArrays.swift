@@ -7,58 +7,36 @@
 
 import Foundation
 
-
+//TODO: Revise this
 // https://leetcode.com/problems/median-of-two-sorted-arrays/
 class MedianTwoSortedArrays {
     
-    func middleElement(of array: [Int]) -> Double {
-        if (array.count % 2) == 0 {
-            return (Double(array[array.count / 2]) + Double(array[(array.count / 2) + 1])) / 2.0
-        }
-        return Double(array[array.count / 2])
-    }
-    
-    func middleElementOfDisjointSortedArrays(arr1: [Int], arr2: [Int]) {
-        
-    }
-    
-    func distributeElements(of arr1: [Int], arr2: [Int], arr1Start: Int, arr1End:Int, arr2Start: Int, arr2End:Int) -> Int {
-        if (arr1[(arr1Start + arr1End) / 2] > arr2[(arr2Start + arr2End) / 2]) {
-
-        }
-    }
-    
     func findMedianSortedArrays(_ nums1: [Int], _ nums2: [Int]) -> Double {
+        let (a, b) = nums1.count < nums2.count ? (nums1, nums2) : (nums2, nums1)
         let half = (nums1.count + nums2.count) / 2
         
         var l = 0
-        var r = nums1.count - 1
+        var r = a.count - 1
         
-        var partition1 = (l + r) / 2
-        var partition2 = half - partition1 - 1
-        
-        while ((nums1[partition1] < nums2[partition2 + 1] || nums2[partition2] < nums1[partition1 + 1]) == false) {
+        while true {
+            let mid1 = (l + r) / 2
+            let mid2 = half - mid1 - 2
+            let aLeft = mid1 < 0 ? -Int.max : a[mid1]
+            let aRight = (mid1 + 1) >= a.count ? Int.max : a[mid1 + 1]
+            let bLeft = mid2 < 0 ? -Int.max : b[mid2]
+            let bRight = (mid2 + 1) >= b.count ? Int.max : b[mid2 + 1]
             
+            if aLeft < bRight && bLeft < aRight {
+                if (nums1.count + nums2.count) % 2 == 0 {
+                    return (Double(max(aLeft, bLeft)) + Double(min(aRight, bRight)) / 2.0)
+                } else {
+                    return Double(min(aRight, bRight))
+                }
+            } else if aLeft > bRight {
+                r = mid1 - 1
+            } else if bLeft > aRight {
+                l = mid1 + 1
+            }
         }
-        
     }
 }
-
-
-
-
-//        if nums1.isEmpty {
-//            return middleElement(of: nums2)
-//        }
-//
-//        if nums2.isEmpty {
-//            return middleElement(of: nums1)
-//        }
-//
-//        if nums2.first! > nums1.last! {
-//            middleElementOfDisjointSortedArrays(arr1: nums1, arr2: nums2)
-//        }
-//
-//        if nums1.first! > nums2.last! {
-//            middleElementOfDisjointSortedArrays(arr1: nums2, arr2: nums1)
-//        }
