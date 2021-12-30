@@ -1,5 +1,5 @@
 //
-//  LongestCommonSubstringTest.swift
+//  LongestPalindromicSubstringTest.swift
 //  MSFTInterviewQuestionsTests_macOS
 //
 //  Created by Robin Malhotra on 29/12/2021.
@@ -13,12 +13,12 @@ import XCTest
 
 class LongestCommonSubstringTest: XCTestCase {
     func testSolver1() {
-        let solver = LongestCommonSubstringSolution()
+        let solver = LongestPalindromicSubstringSolution()
         XCTAssertEqual(solver.longestPalindrome("babad"), "aba")
     }
     
     func testSolver2() {
-        let solver = LongestCommonSubstringSolution()
+        let solver = LongestPalindromicSubstringSolution()
         XCTAssertEqual(solver.longestPalindrome("cbbd"), "bb")
     }
 }

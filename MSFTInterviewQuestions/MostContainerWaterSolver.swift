@@ -7,6 +7,8 @@
 
 import Foundation
 
-class ReverseIntegerSolution {
-    
+class MostContainerWaterSolver {
+    func maxArea(_ height: [Int]) -> Int {
+            
+        }
 }
