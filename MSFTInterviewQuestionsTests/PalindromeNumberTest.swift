@@ -29,6 +29,7 @@ class PalindromeNumberTest: XCTestCase {
     
     func testSolver4() {
         let solver = PalindromeNumberSolution()
+        print(INT32_MAX)
         XCTAssertFalse(solver.isPalindrome(12345))
     }
 }

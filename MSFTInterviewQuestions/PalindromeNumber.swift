@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 //TODO: Revise this
 
 class PalindromeNumberSolution {
