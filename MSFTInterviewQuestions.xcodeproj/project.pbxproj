@@ -31,6 +31,7 @@
 		4263CEAD277D3099006D6FEA /* ReverseIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEAC277D3099006D6FEA /* ReverseIntegerTest.swift */; };
 		4263CEAF277D468F006D6FEA /* MostContainerWaterSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEAE277D468F006D6FEA /* MostContainerWaterSolver.swift */; };
 		4263CEB3277D4775006D6FEA /* LongestPalindromicSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEB2277D4775006D6FEA /* LongestPalindromicSubString.swift */; };
+		4263CEB5277D47A7006D6FEA /* MostContainerWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEB4277D47A7006D6FEA /* MostContainerWaterTest.swift */; };
 		42C02CE427642DB1004CD3F9 /* DeliverooRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */; };
 		42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */; };
 		42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225927768E8C002FDA78 /* UniqueFileNames.swift */; };
@@ -104,6 +105,7 @@
 		4263CEAC277D3099006D6FEA /* ReverseIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTest.swift; sourceTree = "<group>"; };
 		4263CEAE277D468F006D6FEA /* MostContainerWaterSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostContainerWaterSolver.swift; sourceTree = "<group>"; };
 		4263CEB2277D4775006D6FEA /* LongestPalindromicSubString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubString.swift; sourceTree = "<group>"; };
+		4263CEB4277D47A7006D6FEA /* MostContainerWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostContainerWaterTest.swift; sourceTree = "<group>"; };
 		42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangle.swift; sourceTree = "<group>"; };
 		42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangleTest.swift; sourceTree = "<group>"; };
 		42C1225927768E8C002FDA78 /* UniqueFileNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNames.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				42C12274277BF768002FDA78 /* LongestPalindromicSubstringTest.swift */,
 				4263CEA7277D15E4006D6FEA /* PalindromeNumberTest.swift */,
 				4263CEAC277D3099006D6FEA /* ReverseIntegerTest.swift */,
+				4263CEB4277D47A7006D6FEA /* MostContainerWaterTest.swift */,
 			);
 			path = MSFTInterviewQuestionsTests;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				BF_767014658658 /* KadanesAlgoTest.swift in Sources */,
 				BF_841717281072 /* KeyPairTest.swift in Sources */,
 				BF_873166864869 /* LinkedListTest.swift in Sources */,
+				4263CEB5277D47A7006D6FEA /* MostContainerWaterTest.swift in Sources */,
 				BF_368907318114 /* MajorityElementTest.swift in Sources */,
 				BF_824364079718 /* MissingNumberTest.swift in Sources */,
 				42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */,
