@@ -28,12 +28,12 @@ class MedianTwoSortedArrays {
             let mid1 = (start + end) / 2
             
             //[[1,3], [5,7,9]]
-            let mid2 = half - mid1 - 2
+            let mid2 = half - mid1
             
-            let aLeft = mid1 < 0 ? Int.min : a[mid1]
-            let aRight = mid1 >= a.count - 1  ? Int.max : a[mid1 + 1]
-            let bLeft = mid2 < 0 ? Int.min : b[mid2]
-            let bRight = mid2 >= b.count - 1  ? Int.max : b[mid2 + 1]
+            let aLeft = mid1 == 0 ? Int.min : a[mid1 - 1]
+            let aRight = mid1 == a.count  ? Int.max : a[mid1]
+            let bLeft = mid2 == 0 ? Int.min : b[mid2 - 1]
+            let bRight = mid2 == b.count ? Int.max : b[mid2]
             
             if aLeft <= bRight && bLeft <= aRight {
                 if (a.count + b.count) % 2 == 0 {

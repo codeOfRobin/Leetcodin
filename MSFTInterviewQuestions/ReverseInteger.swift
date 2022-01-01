@@ -12,7 +12,7 @@ import Foundation
 class ReverseIntegerSolution {
     
     func reverse(_ x: Int) -> Int {
-        var isNegative = x < 0
+        let isNegative = x < 0
         var l = abs(x)
         var r = 0
 

@@ -34,6 +34,10 @@
 		4263CEB5277D47A7006D6FEA /* MostContainerWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEB4277D47A7006D6FEA /* MostContainerWaterTest.swift */; };
 		4263CEB7277E9B88006D6FEA /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEB6277E9B88006D6FEA /* RomanToInt.swift */; };
 		4263CEB9277E9BB0006D6FEA /* RomanToIntTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEB8277E9BB0006D6FEA /* RomanToIntTest.swift */; };
+		4263CEBB277FD8B5006D6FEA /* IntToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEBA277FD8B5006D6FEA /* IntToRoman.swift */; };
+		4263CEBE277FDA2B006D6FEA /* IntToRomanTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEBC277FD9FC006D6FEA /* IntToRomanTest.swift */; };
+		4263CEC0277FDD1B006D6FEA /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEBF277FDD1B006D6FEA /* LongestCommonPrefix.swift */; };
+		4263CEC2277FDD42006D6FEA /* LongestCommonPrefixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CEC1277FDD42006D6FEA /* LongestCommonPrefixTest.swift */; };
 		42C02CE427642DB1004CD3F9 /* DeliverooRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */; };
 		42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */; };
 		42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225927768E8C002FDA78 /* UniqueFileNames.swift */; };
@@ -110,6 +114,10 @@
 		4263CEB4277D47A7006D6FEA /* MostContainerWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostContainerWaterTest.swift; sourceTree = "<group>"; };
 		4263CEB6277E9B88006D6FEA /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
 		4263CEB8277E9BB0006D6FEA /* RomanToIntTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntTest.swift; sourceTree = "<group>"; };
+		4263CEBA277FD8B5006D6FEA /* IntToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRoman.swift; sourceTree = "<group>"; };
+		4263CEBC277FD9FC006D6FEA /* IntToRomanTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRomanTest.swift; sourceTree = "<group>"; };
+		4263CEBF277FDD1B006D6FEA /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		4263CEC1277FDD42006D6FEA /* LongestCommonPrefixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixTest.swift; sourceTree = "<group>"; };
 		42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangle.swift; sourceTree = "<group>"; };
 		42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangleTest.swift; sourceTree = "<group>"; };
 		42C1225927768E8C002FDA78 /* UniqueFileNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNames.swift; sourceTree = "<group>"; };
@@ -196,6 +204,8 @@
 				4263CEAC277D3099006D6FEA /* ReverseIntegerTest.swift */,
 				4263CEB4277D47A7006D6FEA /* MostContainerWaterTest.swift */,
 				4263CEB8277E9BB0006D6FEA /* RomanToIntTest.swift */,
+				4263CEBC277FD9FC006D6FEA /* IntToRomanTest.swift */,
+				4263CEC1277FDD42006D6FEA /* LongestCommonPrefixTest.swift */,
 			);
 			path = MSFTInterviewQuestionsTests;
 			sourceTree = "<group>";
@@ -246,6 +256,8 @@
 				4263CEAA277D2F19006D6FEA /* ReverseInteger.swift */,
 				4263CEAE277D468F006D6FEA /* MostContainerWaterSolver.swift */,
 				4263CEB6277E9B88006D6FEA /* RomanToInt.swift */,
+				4263CEBA277FD8B5006D6FEA /* IntToRoman.swift */,
+				4263CEBF277FDD1B006D6FEA /* LongestCommonPrefix.swift */,
 			);
 			path = MSFTInterviewQuestions;
 			sourceTree = "<group>";
@@ -347,6 +359,7 @@
 				42C02CE427642DB1004CD3F9 /* DeliverooRectangle.swift in Sources */,
 				4263CEA6277D1517006D6FEA /* PalindromeNumber.swift in Sources */,
 				42D65736275C256300117233 /* GreatestSumDivisibleBy3.swift in Sources */,
+				4263CEC0277FDD1B006D6FEA /* LongestCommonPrefix.swift in Sources */,
 				BF_671579297522 /* KadanesAlgoSolver.swift in Sources */,
 				BF_289826298127 /* KeyPair.swift in Sources */,
 				420812DE27664E3300D046AD /* ValidSudoku.swift in Sources */,
@@ -357,6 +370,7 @@
 				BF_901706121155 /* MajorityElement.swift in Sources */,
 				420812E327665C0600D046AD /* WordSearch.swift in Sources */,
 				BF_789988603799 /* MissingNumberSolver.swift in Sources */,
+				4263CEBB277FD8B5006D6FEA /* IntToRoman.swift in Sources */,
 				BF_230353863046 /* ReverseMiddleSortMergeLinkedList.swift in Sources */,
 				4263CEB7277E9B88006D6FEA /* RomanToInt.swift in Sources */,
 				421177CF20BAFEF000AA2335 /* MinCostClimbingStairsSolver.swift in Sources */,
@@ -380,11 +394,13 @@
 				BF_151642620219 /* BSTCheckTest.swift in Sources */,
 				BF_570864581381 /* DivisibleBy3Test.swift in Sources */,
 				421177D920BB177C00AA2335 /* StairClimbingTest.swift in Sources */,
+				4263CEC2277FDD42006D6FEA /* LongestCommonPrefixTest.swift in Sources */,
 				BF_767014658658 /* KadanesAlgoTest.swift in Sources */,
 				BF_841717281072 /* KeyPairTest.swift in Sources */,
 				BF_873166864869 /* LinkedListTest.swift in Sources */,
 				4263CEB5277D47A7006D6FEA /* MostContainerWaterTest.swift in Sources */,
 				BF_368907318114 /* MajorityElementTest.swift in Sources */,
+				4263CEBE277FDA2B006D6FEA /* IntToRomanTest.swift in Sources */,
 				BF_824364079718 /* MissingNumberTest.swift in Sources */,
 				4263CEB9277E9BB0006D6FEA /* RomanToIntTest.swift in Sources */,
 				42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */,
