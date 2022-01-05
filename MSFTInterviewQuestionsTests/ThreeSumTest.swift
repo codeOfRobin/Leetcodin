@@ -25,4 +25,9 @@ class ThreeSumTest: XCTestCase {
         let solver = ThreeSumSolution()
         XCTAssertEqual(solver.threeSum([0]), [])
     }
+    
+    func testSolver4() {
+        let solver = ThreeSumSolution()
+        XCTAssertEqual(solver.threeSum([0,0]), [])
+    }
 }

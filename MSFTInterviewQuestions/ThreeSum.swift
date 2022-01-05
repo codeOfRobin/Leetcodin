@@ -9,32 +9,55 @@ import Foundation
 
 // https://leetcode.com/problems/3sum/
 
+// TODO: revise
+
 class ThreeSumSolution {
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var triplets: [[Int]] = []
-        var fixedIndex = 0
-        var newNums = nums
-        while newNums.count >= 3 {
-            let fixed = newNums[fixedIndex]
-            newNums.remove(at: fixedIndex)
-            let sum = -fixed
-            
-            let complements: [Int: Int] = newNums.enumerated().reduce(into: [:]) { partialResult, arg1 in
-                let (index, num) = arg1
-                partialResult[sum - num] = index
+        
+        let sorted = nums.sorted()
+        for (index, fixedNum) in sorted.enumerated() {
+            if sorted[index] > 0 {
+                break
             }
             
-            guard let secondNumIndex = newNums.firstIndex(where: { complements[$0] != nil }),
-                  let thirdNumIndex = complements[newNums[secondNumIndex]],
-            secondNumIndex != thirdNumIndex else {
+            guard index < sorted.count - 1 else {
                 continue
             }
-
-            triplets.append([fixed, newNums[secondNumIndex], newNums[thirdNumIndex]])
-            fixedIndex += 1
+            
+            if index == 0 || sorted[index] != sorted[index - 1] {
+                let subArray = Array(sorted[(index + 1)...])
+                let result = twoSum(subArray, -fixedNum)
+                if result.count > 0 {
+                    let convertedResult = result.map{ [fixedNum] + $0.map{ subArray[$0] } }
+                    triplets += convertedResult
+                }
+            }
         }
-        let x = ""
-        x.first
-        return triplets
+        
+       return triplets
+    }
+    
+    func twoSum(_ numbers: [Int], _ target: Int) -> [[Int]] {
+        var i = 0
+        var j = numbers.count - 1
+        var results: [[Int]] = []
+        while (i < j) {
+            let num = numbers[i]
+            let targetComplement = target - num
+            if numbers[j] == targetComplement {
+                results.append([i, j])
+                i += 1
+                j -= 1
+                while i < j && numbers[i] == numbers[i - 1] {
+                    i += 1
+                }
+            } else if numbers[j] > targetComplement {
+                j -= 1
+            } else if numbers[j] < targetComplement {
+                i += 1
+            }
+        }
+        return results
     }
 }
