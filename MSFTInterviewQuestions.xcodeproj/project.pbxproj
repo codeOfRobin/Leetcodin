@@ -48,6 +48,8 @@
 		4263CED127828D27006D6FEA /* ImplementStrStrTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CECF27828D24006D6FEA /* ImplementStrStrTest.swift */; };
 		4263CED327852784006D6FEA /* LetterCombinationsPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CED227852784006D6FEA /* LetterCombinationsPhoneNumber.swift */; };
 		4263CED627852FD4006D6FEA /* LetterCombinationsPhoneNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263CED427852FC8006D6FEA /* LetterCombinationsPhoneNumberTest.swift */; };
+		42693429279398EA008EEE11 /* ThreeSumClosest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42693428279398EA008EEE11 /* ThreeSumClosest.swift */; };
+		4269342C2793994F008EEE11 /* ThreeSumClosestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269342A27939916008EEE11 /* ThreeSumClosestTest.swift */; };
 		42C02CE427642DB1004CD3F9 /* DeliverooRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */; };
 		42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */; };
 		42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225927768E8C002FDA78 /* UniqueFileNames.swift */; };
@@ -138,6 +140,8 @@
 		4263CECF27828D24006D6FEA /* ImplementStrStrTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStrTest.swift; sourceTree = "<group>"; };
 		4263CED227852784006D6FEA /* LetterCombinationsPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsPhoneNumber.swift; sourceTree = "<group>"; };
 		4263CED427852FC8006D6FEA /* LetterCombinationsPhoneNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinationsPhoneNumberTest.swift; sourceTree = "<group>"; };
+		42693428279398EA008EEE11 /* ThreeSumClosest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosest.swift; sourceTree = "<group>"; };
+		4269342A27939916008EEE11 /* ThreeSumClosestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosestTest.swift; sourceTree = "<group>"; };
 		42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangle.swift; sourceTree = "<group>"; };
 		42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangleTest.swift; sourceTree = "<group>"; };
 		42C1225927768E8C002FDA78 /* UniqueFileNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNames.swift; sourceTree = "<group>"; };
@@ -227,6 +231,7 @@
 				4263CEBC277FD9FC006D6FEA /* IntToRomanTest.swift */,
 				4263CEC1277FDD42006D6FEA /* LongestCommonPrefixTest.swift */,
 				4263CEC527811DC8006D6FEA /* ThreeSumTest.swift */,
+				4269342A27939916008EEE11 /* ThreeSumClosestTest.swift */,
 				4263CEC927828A76006D6FEA /* TwoSumSortedArrayTest.swift */,
 				4263CECF27828D24006D6FEA /* ImplementStrStrTest.swift */,
 				4263CED427852FC8006D6FEA /* LetterCombinationsPhoneNumberTest.swift */,
@@ -284,6 +289,7 @@
 				4263CEBA277FD8B5006D6FEA /* IntToRoman.swift */,
 				4263CEBF277FDD1B006D6FEA /* LongestCommonPrefix.swift */,
 				4263CEC327811C2E006D6FEA /* ThreeSum.swift */,
+				42693428279398EA008EEE11 /* ThreeSumClosest.swift */,
 				4263CEC7278289B7006D6FEA /* TwoSumSortedArray.swift */,
 				4263CECD27828CE3006D6FEA /* ImplementStrStr.swift */,
 				4263CED227852784006D6FEA /* LetterCombinationsPhoneNumber.swift */,
@@ -380,6 +386,7 @@
 			files = (
 				BF_403958446795 /* BSTCheck.swift in Sources */,
 				BF_354546509817 /* DivisibleBy3Solver.swift in Sources */,
+				42693429279398EA008EEE11 /* ThreeSumClosest.swift in Sources */,
 				421177DB20BB1A6800AA2335 /* HouseRobberSolver.swift in Sources */,
 				4252A62A279383810009291E /* RecursiveDescentViews.swift in Sources */,
 				42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */,
@@ -426,6 +433,7 @@
 			files = (
 				421177DF20BB1F3300AA2335 /* ZigZagTraversalTest.swift in Sources */,
 				42C12275277BF768002FDA78 /* LongestPalindromicSubstringTest.swift in Sources */,
+				4269342C2793994F008EEE11 /* ThreeSumClosestTest.swift in Sources */,
 				BF_151642620219 /* BSTCheckTest.swift in Sources */,
 				4252A62D279387070009291E /* RecursiveViewDescentSolutionTest.swift in Sources */,
 				BF_570864581381 /* DivisibleBy3Test.swift in Sources */,
