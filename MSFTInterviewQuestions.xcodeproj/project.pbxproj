@@ -52,6 +52,7 @@
 		4269342C2793994F008EEE11 /* ThreeSumClosestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269342A27939916008EEE11 /* ThreeSumClosestTest.swift */; };
 		4269342E2798D22A008EEE11 /* GenerateParensSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269342D2798D22A008EEE11 /* GenerateParensSolution.swift */; };
 		426934312798D25B008EEE11 /* GenerateParensTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269342F2798D235008EEE11 /* GenerateParensTest.swift */; };
+		429690F727AE02EF00DE3021 /* EventLoggerBookingDotCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429690F627AE02EF00DE3021 /* EventLoggerBookingDotCom.swift */; };
 		42C02CE427642DB1004CD3F9 /* DeliverooRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */; };
 		42C02CE627642E94004CD3F9 /* DeliverooRectangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */; };
 		42C1225A27768E8C002FDA78 /* UniqueFileNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1225927768E8C002FDA78 /* UniqueFileNames.swift */; };
@@ -146,6 +147,7 @@
 		4269342A27939916008EEE11 /* ThreeSumClosestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumClosestTest.swift; sourceTree = "<group>"; };
 		4269342D2798D22A008EEE11 /* GenerateParensSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParensSolution.swift; sourceTree = "<group>"; };
 		4269342F2798D235008EEE11 /* GenerateParensTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParensTest.swift; sourceTree = "<group>"; };
+		429690F627AE02EF00DE3021 /* EventLoggerBookingDotCom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLoggerBookingDotCom.swift; sourceTree = "<group>"; };
 		42C02CE327642DB1004CD3F9 /* DeliverooRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangle.swift; sourceTree = "<group>"; };
 		42C02CE527642E94004CD3F9 /* DeliverooRectangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverooRectangleTest.swift; sourceTree = "<group>"; };
 		42C1225927768E8C002FDA78 /* UniqueFileNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueFileNames.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				4263CECD27828CE3006D6FEA /* ImplementStrStr.swift */,
 				4263CED227852784006D6FEA /* LetterCombinationsPhoneNumber.swift */,
 				4252A629279383810009291E /* RecursiveDescentViews.swift */,
+				429690F627AE02EF00DE3021 /* EventLoggerBookingDotCom.swift */,
 				4269342D2798D22A008EEE11 /* GenerateParensSolution.swift */,
 			);
 			path = MSFTInterviewQuestions;
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429690F727AE02EF00DE3021 /* EventLoggerBookingDotCom.swift in Sources */,
 				BF_403958446795 /* BSTCheck.swift in Sources */,
 				BF_354546509817 /* DivisibleBy3Solver.swift in Sources */,
 				42693429279398EA008EEE11 /* ThreeSumClosest.swift in Sources */,
