@@ -58,6 +58,31 @@ class DecodeWays {
         
         memo[string] = firstSolution + secondSolution
         return firstSolution + secondSolution
+        
+        retry(url: URL.init(string: "")!, maxRetries: 10) { result in
+            print(result)
+        }
+    }
+}
+
+func calculateDelay(count: Int) -> Int {
+    return count * 10
+}
+
+typealias CompletionHandler = ((Result<Data, Error>) -> Void)
+func retry(url: URL, currentRetries: Int = 0, maxRetries: Int, completion: @escaping CompletionHandler) {
+    URLSession.shared.dataTask(with: url) { data, response, error in
+        if let data = data {
+            completion(.success(data))
+        } else {
+            if currentRetries + 1 == maxRetries {
+                completion(.failure(error!))
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(calculateDelay(count: currentRetries))) {
+                    retry(url: url, currentRetries: currentRetries + 1, maxRetries: maxRetries, completion: completion)
+                }
+            }
+        }
     }
 }
 
