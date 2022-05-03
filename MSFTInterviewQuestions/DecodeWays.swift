@@ -59,7 +59,15 @@ class DecodeWays {
         memo[string] = firstSolution + secondSolution
         return firstSolution + secondSolution
         
-        retry(url: URL.init(string: "")!, maxRetries: 10) { result in
+        retry(task: { (completion: @escaping (Result<Data, Error>) -> Void)  in
+            URLSession.shared.dataTask(with: URL(string: "")!) { data, response, error in
+                if let data = data {
+                    completion(.success(data))
+                } else {
+                    completion(.failure(error!))
+                }
+            }
+        }, maxRetries: 10) { result in
             print(result)
         }
     }
@@ -69,22 +77,70 @@ func calculateDelay(count: Int) -> Int {
     return count * 10
 }
 
-typealias CompletionHandler = ((Result<Data, Error>) -> Void)
-func retry(url: URL, currentRetries: Int = 0, maxRetries: Int, completion: @escaping CompletionHandler) {
-    URLSession.shared.dataTask(with: url) { data, response, error in
-        if let data = data {
+
+
+//typealias CompletionHandler = ((Result<Data, Error>) -> Void)
+//func retry(url: URL, currentRetries: Int = 0, maxRetries: Int, completion: @escaping CompletionHandler<>) {
+//    URLSession.shared.dataTask(with: url) { data, response, error in
+//        if let data = data {
+//            completion(.success(data))
+//        } else {
+//            if currentRetries + 1 == maxRetries {
+//                completion(.failure(error!))
+//            } else {
+//                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(calculateDelay(count: currentRetries))) {
+//                    retry(url: url, currentRetries: currentRetries + 1, maxRetries: maxRetries, completion: completion)
+//                }
+//            }
+//        }
+//    }
+//}
+
+
+typealias CompletionHandler<T> = ((Result<T, Error>) -> Void)
+func retry<T>(task: @escaping (@escaping CompletionHandler<T>) -> Void, currentRetries: Int = 0, maxRetries: Int, completion: @escaping CompletionHandler<T>) {
+    task({
+        result in
+        switch result {
+        case .success(let data):
             completion(.success(data))
-        } else {
+        case .failure(let error):
             if currentRetries + 1 == maxRetries {
-                completion(.failure(error!))
+                completion(.failure(error))
             } else {
                 DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(calculateDelay(count: currentRetries))) {
-                    retry(url: url, currentRetries: currentRetries + 1, maxRetries: maxRetries, completion: completion)
+                    retry(task: task, currentRetries: currentRetries + 1, maxRetries: maxRetries, completion: completion)
                 }
             }
         }
-    }
+    })
 }
 
 
 
+class Solution {
+    func permute(_ nums: [Int]) -> [[Int]] {
+        let dict = nums.reduce(into: [:], {
+            dict, number in
+            dict[number, default: 0] += 1
+        })
+        
+        return generatePermutations(permutations: [], dict: dict)
+    }
+    
+    func generatePermutations(permutations: [[Int]], dict: [Int: Int]) -> [[Int]] {
+        if dict.count == 0 {
+            return permutations
+        }
+        
+        return dict.reduce([]) {
+            result, arg1 in
+            let (key, value) = arg1
+            var copy = dict
+            copy.removeValue(forKey: key)
+            
+            let perms: [[Int]] = permutations.count > 0 ? permutations.map{ $0 + [value] } : [[value]]
+            return result + generatePermutations(permutations: perms, dict: copy)
+        }
+    }
+}
